@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is simple project to make dashboard tempalate with ReactJs and Ant Design.
 
 ## Available Scripts
 
