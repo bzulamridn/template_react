@@ -26,7 +26,7 @@ export default function Master(props) {
  
     return (
             <Layout style={{ height:'100%' }}>
-                <Sider trigger={null} collapsible collapsed={collapsed}>
+                <Sider trigger={null} collapsible collapsed={collapsed} >
                     <div className="logo" />
                     <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
                         <Menu.Item key="1" onClick={ () => browserHistory.push('/')}>

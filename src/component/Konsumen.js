@@ -12,11 +12,12 @@ import {
     TransactionOutlined
 } from '@ant-design/icons';
 import 'antd/dist/antd.css';
-
+import {useSelector, useDispatch} from 'react-redux';
 
 const { Header, Sider, Content } = Layout;
 
 function Konsumen() {
+    const counter = useSelector(state => state.counter)
     return (
         <Content
             className="site-layout-background"
@@ -32,6 +33,7 @@ function Konsumen() {
                 //breadcrumb={{ routes }}
                 subTitle="Konsumen Page Content Here"
             />
+            <h1>{counter}</h1>
         </Content>
     )
 }
